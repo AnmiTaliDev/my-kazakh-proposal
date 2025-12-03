@@ -1,40 +1,40 @@
 # Toî jyry - Dos Mukasan
 
 ## 1-şumaq:
-Mahabbatyŋ qūdıret küşı äldılep,
-Ekı jastyŋ tabystyrǧan jüregın.
-Jastyq jalyn, asyl arman, aq niyet
-Baqyt syîlap ūsynypty gülderın.
+Mahabbatyŋ qūdıret küşı äldılep, \
+Ekı jastyŋ tabystyrǧan jüregın. \
+Jastyq jalyn, asyl arman, aq niyet \
+Baqyt syîlap ūsynypty gülderın. \
 
 ## Qaîyrmasy:
-Toî üstınde tättı künder, tättı künder.
-Jas jūbaîlar şat külıŋder, şat külıŋder.
-Än salaîyq bi bileîık, bi bileîık,
-Şaryqtasyn şattyq ünder, şattyq ünder.
+Toî üstınde tättı künder, tättı künder. \
+Jas jūbaîlar şat külıŋder, şat külıŋder. \
+Än salaîyq bi bileîık, bi bileîık, \
+Şaryqtasyn şattyq ünder, şattyq ünder. \
 
 ## 2-şumaq:
-Bırge attanyp bolaşaqqa, ömırge
-Tıktı bügın ortamyzǧa otauyn.
-Quanyş pen şattyq ornap köŋılge,
-Toîlamaqqa keldı bügın köp qauym.
+Bırge attanyp bolaşaqqa, ömırge \
+Tıktı bügın ortamyzǧa otauyn. \
+Quanyş pen şattyq ornap köŋılge, \
+Toîlamaqqa keldı bügın köp qauym. \
 
 ## Qaîyrmasy:
-Toî üstınde tättı künder, tättı künder.
-Jas jūbaîlar şat külıŋder, şat külıŋder.
-Än salaîyq bi bileîık, bi bileîık,
-Şaryqtasyn şattyq ünder, şattyq ünder.
+Toî üstınde tättı künder, tättı künder. \
+Jas jūbaîlar şat külıŋder, şat külıŋder. \
+Än salaîyq bi bileîık, bi bileîık, \
+Şaryqtasyn şattyq ünder, şattyq ünder. \
 
 ## 3-şumaq:
-Jas şaŋyraq bolsyn baqyt besıgı.
-Jas jūbaîlar, qūtty bolsyn toîlaryŋ
-Keŋ aşylsyn bolaşaqtyŋ esıgı
-Oryndalsyn arman, tılek, oîlaryŋ.
+Jas şaŋyraq bolsyn baqyt besıgı. \
+Jas jūbaîlar, qūtty bolsyn toîlaryŋ \
+Keŋ aşylsyn bolaşaqtyŋ esıgı \
+Oryndalsyn arman, tılek, oîlaryŋ. \
 
 ## Qaîyrmasy:
-Toî üstınde tättı künder, tättı künder.
-Jas jūbaîlar şat külıŋder, şat külıŋder.
-Än salaîyq bi bileîık, bi bileîık,
-Şaryqtasyn şattyq ünder, şattyq ünder.
+Toî üstınde tättı künder, tättı künder. \
+Jas jūbaîlar şat külıŋder, şat külıŋder. \
+Än salaîyq bi bileîık, bi bileîık, \
+Şaryqtasyn şattyq ünder, şattyq ünder. \
 
 ---
 
