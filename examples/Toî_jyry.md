@@ -2,7 +2,7 @@
 
 ## 1-şumaq:
 Mahabbatyŋ qūdıret küşı äldılep, \
-Ekı jastyŋ tabystyrǧan jüregın. \
+Ekı jastyŋ tabystyrğan jüregın. \
 Jastyq jalyn, asyl arman, aq niyet \
 Baqyt syîlap ūsynypty gülderın. 
 
@@ -14,7 +14,7 @@ Jas jūbaîlar şat külıŋder, şat külıŋder. \
 
 ## 2-şumaq:
 Bırge attanyp bolaşaqqa, ömırge \
-Tıktı bügın ortamyzǧa otauyn. \
+Tıktı bügın ortamyzğa otauyn. \
 Quanyş pen şattyq ornap köŋılge, \
 Toîlamaqqa keldı bügın köp qauym. 
 

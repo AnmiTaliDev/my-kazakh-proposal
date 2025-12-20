@@ -17,7 +17,7 @@ This proposal presents a comprehensive Latin alphabet system for Kazakh that pro
 | ä | ә | |
 | b | б | |
 | g | г | |
-| ǧ | ғ | |
+| ğ | ғ | |
 | d | д | |
 | e | е | |
 | ё | ё | Preserved from Cyrillic |
@@ -42,7 +42,7 @@ This proposal presents a comprehensive Latin alphabet system for Kazakh that pro
 | x | х | |
 | h | һ | |
 | c | ц | |
-| ċ | ч | Dotted c for clarity |
+| č | ч | Dotted c for clarity |
 | ş | ш | |
 | š | щ | |
 | — | ъ | No representation needed |
@@ -55,7 +55,7 @@ This proposal presents a comprehensive Latin alphabet system for Kazakh that pro
 
 ## Key Improvements
 
-1. **Clear distinction for sibilants**: ş (ш), š (щ), ċ (ч), c (ц)
+1. **Clear distinction for sibilants**: ş (ш), š (щ), č (ч), c (ц)
 2. **Unambiguous vowel system**: Uses diacritics consistently
 3. **No ambiguity**: Each Cyrillic letter has a unique Latin equivalent
 4. **Typographically feasible**: Uses standard Unicode characters

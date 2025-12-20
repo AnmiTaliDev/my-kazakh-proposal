@@ -8,7 +8,7 @@
 | 2 | ä | ә | /æ/ | äke | әке | |
 | 3 | b | б | /b/ | bala | бала | |
 | 4 | g | г | /ɡ/ | gül | гүл | |
-| 5 | ǧ | ғ | /ɣ/ | ǧalym | ғалым | |
+| 5 | ğ | ғ | /ɣ/ | ğalym | ғалым | |
 | 6 | d | д | /d/ | dos | дос | |
 | 7 | e | е | /e/ | emes | емес | |
 | 8 | ё | ё | /jo/ | — | — | Preserved from Cyrillic |
@@ -33,7 +33,7 @@
 | 27 | x | х | /x/ | xat | хат | |
 | 28 | h | һ | /h/ | mahabbat | махаббат | |
 | 29 | c | ц | /ts/ | cirk | цирк | |
-| 30 | ċ | ч | /tʃ/ | ċaî | чай | Dotted c distinguishes from c |
+| 30 | č | ч | /tʃ/ | čaî | чай | Dotted c distinguishes from c |
 | 31 | ş | ш | /ʃ/ | şekpen | шекпен | |
 | 32 | š | щ | /ʃtʃ/ | borš | борщ | |
 | 33 | — | ъ | /ʔ/ | — | — | Hard sign - no representation |
@@ -47,13 +47,13 @@
 ## Special Characters and Diacritics Used
 
 - **ä** (a with diaeresis) - for ә
-- **ǧ** (g with breve) - for ғ  
+- **ğ** (g with breve) - for ғ  
 - **î** (i with circumflex) - for й
 - **ŋ** (eng) - for ң
 - **ö** (o with diaeresis) - for ө
 - **ū** (u with macron) - for ұ
 - **ü** (u with diaeresis) - for ү
-- **ċ** (c with dot above) - for ч
+- **č** (c with dot above) - for ч
 - **ş** (s with cedilla) - for ш
 - **š** (s with caron) - for щ
 - **ı** (dotless i) - for і
@@ -68,7 +68,7 @@
 - **ş** /ʃ/ ← ш  
 - **š** /ʃtʃ/ ← щ
 - **c** /ts/ ← ц
-- **ċ** /tʃ/ ← ч
+- **č** /tʃ/ ← ч
 
 ### Vowel System
 - **Front vowels**: e, i, ä, ö, ü

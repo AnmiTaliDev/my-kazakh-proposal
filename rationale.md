@@ -35,7 +35,7 @@ This creates significant confusion and ambiguity in written text.
 | ш /ʃ/ | ş | Turkish/Romanian model |
 | щ /ʃtʃ/ | š | Czech/Slovak model |
 | ц /ts/ | c | Italian model |
-| ч /tʃ/ | ċ | Maltese model (dotted c) |
+| ч /tʃ/ | č | Maltese model (dotted c) |
 
 ### 3. Systematic Vowel Representation
 - Consistent use of diacritics for front vowels
