@@ -1,0 +1,76 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
+import type { Content } from "@/i18n/types"
+import type { LocaleDef } from "@/i18n/locales"
+
+interface Props {
+  content: Content
+  code: LocaleDef["code"]
+}
+
+const { content, code } = Astro.props
+const e = content.example
+---
+
+<Layout content={content} code={code} active="example" title={`${e.h1} | ${content.meta.title}`}>
+	<h1 class="font-heading text-2xl font-semibold tracking-tight">{e.h1}</h1>
+	<p class="mt-1 text-sm text-muted-foreground">{e.performerLabel}: {e.performer}</p>
+
+	<div class="mt-6 grid gap-4 sm:grid-cols-2">
+		{
+			e.verses.map((verse) => (
+				<Card>
+					<CardHeader>
+						<CardTitle>{verse.title}</CardTitle>
+					</CardHeader>
+					<CardContent class="space-y-1 text-sm/relaxed">
+						{verse.lines.map((line) => (
+							<p>{line}</p>
+						))}
+					</CardContent>
+				</Card>
+			))
+		}
+	</div>
+
+	<section class="mt-6 space-y-3 text-xs/relaxed text-muted-foreground">
+		<h2 class="font-heading text-sm font-semibold text-foreground">{e.copyrightHeading}</h2>
+		<p>{e.copyrightBody}</p>
+		<p>{e.transcriptionLabel}: {e.transcriptionValue}</p>
+		<p>{e.licenseLabel}: {e.licenseValue}</p>
+		<p>{e.copyrightLine}</p>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section>
+		<h2 class="font-heading text-xl font-semibold tracking-tight">{e.epicHeading}</h2>
+		<p class="mt-1 text-sm text-muted-foreground">{e.epicSubheading}</p>
+
+		<Card className="mt-6">
+			<CardContent class="space-y-1 text-sm/relaxed">
+				{e.epicLines.map((line) => (
+					<p>{line}</p>
+				))}
+			</CardContent>
+		</Card>
+
+		<section class="mt-6 space-y-3 text-xs/relaxed text-muted-foreground">
+			<h3 class="font-heading text-sm font-semibold text-foreground">{e.epicSourceHeading}</h3>
+			<p>
+				{e.epicSourceBody}{" "}
+				<a
+					class="underline hover:text-foreground"
+					href="https://adebiportal.kz/kz/news/view/qyz-zibek-zyry-algas-qagazga-tusken-nusqalary__19821"
+					target="_blank"
+					rel="noreferrer"
+				>
+					{e.epicSourceLinkText}
+				</a>.
+			</p>
+			<p>{e.epicEditionLine}</p>
+		</section>
+	</section>
+</Layout>

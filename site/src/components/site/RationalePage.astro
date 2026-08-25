@@ -1,0 +1,85 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+import { Separator } from "@/components/ui/separator"
+import type { Content } from "@/i18n/types"
+import type { LocaleDef } from "@/i18n/locales"
+
+interface Props {
+  content: Content
+  code: LocaleDef["code"]
+}
+
+const { content, code } = Astro.props
+const r = content.rationale
+---
+
+<Layout content={content} code={code} active="rationale" title={`${r.h1} | ${content.meta.title}`}>
+	<h1 class="font-heading text-2xl font-semibold tracking-tight">{r.h1}</h1>
+
+	<section class="mt-8 space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.startHeading}</h2>
+		{r.startBody.map((p) => <p class="max-w-2xl text-sm/relaxed text-muted-foreground">{p}</p>)}
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.dropHeading}</h2>
+		<div class="grid gap-3 sm:grid-cols-2">
+			{
+				r.cards.map((c) => (
+					<Card>
+						<CardHeader>
+							<CardTitle>{c.title}</CardTitle>
+							<CardContent class="px-0 text-xs/relaxed text-muted-foreground">
+								{c.body}
+							</CardContent>
+						</CardHeader>
+					</Card>
+				))
+			}
+		</div>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.dropNote}</p>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.dropOutro}</p>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.mergeHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.mergeIntro}</p>
+		<ul class="max-w-2xl space-y-2 text-sm/relaxed text-muted-foreground">
+			{r.mergeList.map((line) => <li>{line}</li>)}
+		</ul>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.mergeOutro}</p>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.soundsHeading}</h2>
+		{r.soundsBody.map((p) => <p class="max-w-2xl text-sm/relaxed text-muted-foreground">{p}</p>)}
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.iHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.iBody}</p>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.compareHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.compareBody}</p>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{r.conclusionHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{r.conclusionBody}</p>
+	</section>
+</Layout>

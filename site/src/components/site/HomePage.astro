@@ -1,0 +1,80 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Separator } from "@/components/ui/separator"
+import { mappingRows } from "@/data/mapping"
+import type { Content } from "@/i18n/types"
+import { pageHref, locales, type LocaleDef } from "@/i18n/locales"
+
+interface Props {
+  content: Content
+  code: LocaleDef["code"]
+}
+
+const { content, code } = Astro.props
+const current = locales.find((l) => l.code === code)!
+---
+
+<Layout content={content} code={code} active="home" title={content.meta.title}>
+	<section class="space-y-4">
+		<Badge variant="secondary">{content.home.badge}</Badge>
+		<h1 class="font-heading text-3xl font-semibold tracking-tight">
+			{content.home.h1}
+		</h1>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">
+			{content.home.lead}
+		</p>
+	</section>
+
+	<Separator className="my-8" />
+
+	<section class="space-y-4">
+		<h2 class="font-heading text-lg font-semibold">{content.home.overviewHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">
+			{content.home.overviewBody}
+		</p>
+	</section>
+
+	<Separator className="my-8" />
+
+	<section class="space-y-4">
+		<h2 class="font-heading text-lg font-semibold">{content.home.keyPointsHeading}</h2>
+		<div class="grid gap-3 sm:grid-cols-2">
+			{
+				content.home.keyPoints.map((kp) => (
+					<Card>
+						<CardHeader>
+							<CardTitle>{kp.title}</CardTitle>
+							<CardDescription>{kp.body}</CardDescription>
+						</CardHeader>
+					</Card>
+				))
+			}
+		</div>
+	</section>
+
+	<Separator className="my-8" />
+
+	<section class="space-y-4">
+		<div class="flex items-baseline justify-between gap-4">
+			<h2 class="font-heading text-lg font-semibold">{content.home.mappingHeading}</h2>
+			<a
+				href={pageHref(current.dir, "mapping")}
+				class="text-xs/relaxed text-muted-foreground hover:text-foreground"
+			>
+				{content.home.mappingLinkText} &rarr;
+			</a>
+		</div>
+		<div class="flex flex-wrap gap-x-4 gap-y-2 rounded-lg border border-border p-4 text-sm">
+			{
+				mappingRows.map((row) => (
+					<span class="whitespace-nowrap">
+						<span class="font-medium">{row.latin}</span>
+						<span class="text-muted-foreground"> / {row.cyrillic}</span>
+					</span>
+				))
+			}
+		</div>
+	</section>
+</Layout>

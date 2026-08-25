@@ -1,84 +1,68 @@
-# Character Mapping Table - AnmiTaliDev's Proposal
+# Character Mapping
 
-## Complete Alphabet Overview
+Full letter-by-letter table for this Kazakh alphabet proposal: 29 Latin letters against the 31 Cyrillic letters that make up native Kazakh phonology (the standard 42-letter Kazakh Cyrillic alphabet minus the eleven letters used only for Russian loanwords).
 
-| # | Latin | Cyrillic | IPA | Example Word (Latin) | Example Word (Cyrillic) | Notes |
-|---|-------|----------|-----|---------------------|------------------------|-------|
-| 1 | a | а | /a/ | alama | алама | |
-| 2 | ä | ә | /æ/ | äke | әке | |
-| 3 | b | б | /b/ | bala | бала | |
-| 4 | g | г | /ɡ/ | gül | гүл | |
-| 5 | ğ | ғ | /ɣ/ | ğalym | ғалым | |
-| 6 | d | д | /d/ | dos | дос | |
-| 7 | e | е | /e/ | emes | емес | |
-| 8 | ё | ё | /jo/ | — | — | Preserved from Cyrillic |
-| 9 | j | ж | /ʒ/ | jaz | жаз | |
-| 10 | z | з | /z/ | zat | зат | |
-| 11 | i | и | /i/ | is | іс | |
-| 12 | î | й | /j/ | aî | ай | |
-| 13 | k | к | /k/ | kül | күл | |
-| 14 | m | м | /m/ | men | мен | |
-| 15 | n | н | /n/ | nan | нан | |
-| 16 | ŋ | ң | /ŋ/ | taŋ | таң | |
-| 17 | o | о | /o/ | ot | от | |
-| 18 | ö | ө | /ø/ | öz | өз | |
-| 19 | p | п | /p/ | pay | пай | |
-| 20 | r | р | /r/ | ret | рет | |
-| 21 | s | с | /s/ | salam | салам | |
-| 22 | t | т | /t/ | tıl | тіл | |
-| 23 | u | у | /u/ | uy | уы | |
-| 24 | ū | ұ | /ʊ/ | ūl | ұл | |
-| 25 | ü | ү | /y/ | üy | үй | |
-| 26 | f | ф | /f/ | telefon | телефон | |
-| 27 | x | х | /x/ | xat | хат | |
-| 28 | h | һ | /h/ | mahabbat | махаббат | |
-| 29 | c | ц | /ts/ | cirk | цирк | |
-| 30 | č | ч | /tʃ/ | čaî | чай | Dotted c distinguishes from c |
-| 31 | ş | ш | /ʃ/ | şekpen | шекпен | |
-| 32 | š | щ | /ʃtʃ/ | borš | борщ | |
-| 33 | — | ъ | /ʔ/ | — | — | Hard sign - no representation |
-| 34 | y | ы | /ɯ/ | tyl | тыл | |
-| 35 | ı | і | /ɪ/ | ıs | іс | Dotless i |
-| 36 | ' | ь | /ʲ/ | qon' | қонь | Soft sign as apostrophe |
-| 37 | e | э | /e/ | eko | эко | |
-| 38 | ÿ | ю | /ju/ | ÿrta | юрта | |
-| 39 | ã | я | /ja/ | ãbloko | яблоко | |
+| # | Latin | Cyrillic source | IPA | Example (Latin) | Example (Cyrillic) |
+|---|---|---|---|---|---|
+| 1 | A a | А а | /a/ | ana | ана |
+| 2 | Ä ä | Ә ә | /æ/ | äke | әке |
+| 3 | B b | Б б | /b/ | bala | бала |
+| 4 | G g | Г г | /ɡ/ | gül | гүл |
+| 5 | Ğ ğ | Ғ ғ | /ɣ/ | ğalym | ғалым |
+| 6 | D d | Д д | /d/ | dos | дос |
+| 7 | E e | Е е | /e/ | emes | емес |
+| 8 | J j | Ж ж | /ʒ/ | jaz | жаз |
+| 9 | Z z | З з | /z/ | zat | зат |
+| 10 | İ i | И и, Й й | /i/, /j/ | is, tai | ис, тай |
+| 11 | K k | К к | /k/ | kül | күл |
+| 12 | Q q | Қ қ | /q/ | qala | қала |
+| 13 | L l | Л л | /l/ | laq | лақ |
+| 14 | M m | М м | /m/ | men | мен |
+| 15 | N n | Н н | /n/ | nan | нан |
+| 16 | Ñ ñ | Ң ң | /ŋ/ | tañ | таң |
+| 17 | O o | О о | /o/ | ot | от |
+| 18 | Ö ö | Ө ө | /ø/ | öz | өз |
+| 19 | P p | П п | /p/ | pai | пай |
+| 20 | R r | Р р | /r/ | ret | рет |
+| 21 | S s | С с | /s/ | salam | салам |
+| 22 | T t | Т т | /t/ | til | тіл |
+| 23 | U u | У у | /w/, /u/ | uyq | уық |
+| 24 | Ū ū | Ұ ұ | /ʊ/ | ūl | ұл |
+| 25 | Ü ü | Ү ү | /y/ | üi | үй |
+| 26 | H h | Х х, Һ һ | /χ/, /h/ | hat, mahabbat | хат, махаббат |
+| 27 | Ş ş | Ш ш | /ʃ/ | şekpen | шекпен |
+| 28 | Y y | Ы ы | /ɯ/ | qyz | қыз |
+| 29 | I ı | І і | /ɪ/ | tıl | тіл |
 
-## Special Characters and Diacritics Used
+Rows 10 and 26 list two Cyrillic letters each. That is not a typo: those are the two places where this alphabet deliberately treats a Cyrillic contrast as not worth a separate Latin letter.
 
-- **ä** (a with diaeresis) - for ә
-- **ğ** (g with breve) - for ғ  
-- **î** (i with circumflex) - for й
-- **ŋ** (eng) - for ң
-- **ö** (o with diaeresis) - for ө
-- **ū** (u with macron) - for ұ
-- **ü** (u with diaeresis) - for ү
-- **č** (c with dot above) - for ч
-- **ş** (s with cedilla) - for ш
-- **š** (s with caron) - for щ
-- **ı** (dotless i) - for і
-- **ÿ** (y with diaeresis) - for ю
-- **ã** (a with tilde) - for я
-- **'** (apostrophe) - for ь
+## Rows 10 and 26: where two letters became one
 
-## Key Distinctions
+**İ i** stands for both И and Й. И is a vowel, Й is a consonantal glide, and in most environments a reader can tell which one is meant from position alone (between consonants it is the vowel, after a vowel it is the glide). Splitting them into two letters buys little clarity for the cost of a second dedicated symbol.
 
-### Sibilant Consonants (Major Improvement)
-- **s** /s/ ← с
-- **ş** /ʃ/ ← ш  
-- **š** /ʃtʃ/ ← щ
-- **c** /ts/ ← ц
-- **č** /tʃ/ ← ч
+**H h** stands for both Х and Һ. Х is a native Kazakh sound; Һ is imported wholesale from Arabic and Persian loanwords and survives in a short, closed list of words. Many Kazakh speakers already pronounce them identically.
 
-### Vowel System
-- **Front vowels**: e, i, ä, ö, ü
-- **Back vowels**: a, o, u, ū, y
-- **Special**: ı (dotless i for і)
+Every other row is a plain, one-to-one substitution: one Cyrillic letter, one Latin letter, no ambiguity.
 
-This mapping ensures every Cyrillic letter has a unique Latin counterpart with no ambiguity.
+## Why the source is 31 letters, not 42
+
+The eleven letters left out of the source set entirely, В, Ё, Ц, Ч, Щ, Ъ, Ь, Э, Ю, Я, Ф, do not appear in this table at all, because they do not encode a native Kazakh sound. See [rationale.md](rationale.md) for the reasoning behind each one, and for how the sounds they used to carry (a я/ё/ю-style glide, mostly) are still writable with the 29 letters that remain.
+
+## Respelling loanwords: В → U, Ф → P
+
+For the two most common excluded consonants, the alphabet has a standing substitution rule rather than requiring a case-by-case respelling:
+
+- **В** (as in "автор") is replaced with **U u**: автор → autor.
+- **Ф** (as in "философия") is replaced with **P p**: философия → pilosopiya.
+
+Other excluded letters (Ц, Ч, Щ, Ъ, Ь, Э, Ю, Я) do not have a single standing substitute; they are respelled case by case using the closest native sound, the same way "Wikipedia" becomes "Uikipedia".
+
+## İ i versus I ı
+
+The alphabet keeps one distinction that a first glance at "i" everywhere might miss: **İ i** (dotted, row 10) and **I ı** (dotless, row 29) are two different letters, not two fonts of the same letter. This is the same dotted/dotless pair Turkish uses, and it matters here because И/Й and І sit on opposite sides of Kazakh vowel harmony.
 
 ## License
 
-This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
-© 2025 AnmiTaliDev
+© 2026 AnmiTaliDev

@@ -1,0 +1,95 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import {
+	Table,
+	TableHeader,
+	TableBody,
+	TableRow,
+	TableHead,
+	TableCell,
+} from "@/components/ui/table"
+import { Separator } from "@/components/ui/separator"
+import { mappingRows, droppedLetters } from "@/data/mapping"
+import type { Content } from "@/i18n/types"
+import type { LocaleDef } from "@/i18n/locales"
+
+interface Props {
+  content: Content
+  code: LocaleDef["code"]
+}
+
+const { content, code } = Astro.props
+const m = content.mapping
+---
+
+<Layout content={content} code={code} active="mapping" title={`${m.h1} | ${content.meta.title}`}>
+	<h1 class="font-heading text-2xl font-semibold tracking-tight">{m.h1}</h1>
+	<p class="mt-2 max-w-2xl text-sm/relaxed text-muted-foreground">{m.lead}</p>
+
+	<div class="mt-8 overflow-hidden rounded-lg border border-border">
+		<Table>
+			<TableHeader>
+				<TableRow>
+					<TableHead>{m.table.n}</TableHead>
+					<TableHead>{m.table.latin}</TableHead>
+					<TableHead>{m.table.cyrillic}</TableHead>
+					<TableHead>{m.table.ipa}</TableHead>
+					<TableHead>{m.table.exLatin}</TableHead>
+					<TableHead>{m.table.exCyrillic}</TableHead>
+				</TableRow>
+			</TableHeader>
+			<TableBody>
+				{
+					mappingRows.map((row) => (
+						<TableRow>
+							<TableCell class="text-muted-foreground">{row.n}</TableCell>
+							<TableCell class="font-medium">{row.latin}</TableCell>
+							<TableCell>{row.cyrillic}</TableCell>
+							<TableCell class="text-muted-foreground">{row.ipa}</TableCell>
+							<TableCell>{row.exampleLatin}</TableCell>
+							<TableCell>{row.exampleCyrillic}</TableCell>
+						</TableRow>
+					))
+				}
+			</TableBody>
+		</Table>
+	</div>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{m.mergedHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{m.mergedIntro}</p>
+		<ul class="max-w-2xl space-y-2 text-sm/relaxed text-muted-foreground">
+			{m.merged.map((line) => <li>{line}</li>)}
+		</ul>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{m.droppedHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{m.droppedIntro}</p>
+		<div class="flex flex-wrap gap-2">
+			{
+				droppedLetters.map((l) => (
+					<span class="rounded-md border border-border px-2 py-1 font-mono text-sm">{l}</span>
+				))
+			}
+		</div>
+		<ul class="max-w-2xl space-y-2 text-sm/relaxed text-muted-foreground">
+			{m.droppedNotes.map((line) => <li>{line}</li>)}
+		</ul>
+	</section>
+
+	<Separator className="my-10" />
+
+	<section class="space-y-3">
+		<h2 class="font-heading text-lg font-semibold">{m.twoIHeading}</h2>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{m.twoIIntro}</p>
+		<ul class="max-w-2xl space-y-1 text-sm/relaxed text-muted-foreground">
+			{m.twoIList.map((line) => <li>{line}</li>)}
+		</ul>
+		<p class="max-w-2xl text-sm/relaxed text-muted-foreground">{m.twoIOutro}</p>
+	</section>
+</Layout>
